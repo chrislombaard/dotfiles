@@ -41,6 +41,7 @@ rm -rf $HOME/.hyper.js
 ln -s $HOME/.dotfiles/.hyper.js $HOME/.hyper.js
 
 # update git config
+rm -rf $HOME/.gitconfig
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 
 # install ohmyzsh
